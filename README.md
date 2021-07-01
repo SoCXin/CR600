@@ -1,10 +1,11 @@
 ﻿# [CR600](https://github.com/SoCXin/CR600)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[上海云间半导体](http://www.cloudersemi.com/)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
-#### [Level](https://github.com/SoCXin/Level)：125 MHz
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-## [芯片描述](https://github.com/SoCXin/CR600/wiki)
+* [cloudersemi](http://www.cloudersemi.com/)：[Cortex-M0](https://github.com/SoCXin/Cortex)
+* [L4R6](https://github.com/SoCXin/Level)：125 MHz
+
+## [简介](https://github.com/SoCXin/CR600/wiki)
 
 [CR600](https://github.com/SoCXin/CR600) 是上海云间半导体针对复杂电力线环境，自主研发的宽带电力线载波SoC芯片。具有高集成度、高可靠性的特点。CR600 的电力线载波传输采用先进的OFDM 技术，频率范围2MHz~28MHz，自带FEC 纠错与校验， 自适应跳频，有效避开电力线噪声；物理层传输速率最高可达240Mbps；可实现实时多路高清视频的传输。CR600芯片作为数字基带芯片，需和上海云间半导体提供的CR150模拟前端(AFE)芯片搭配使用。
 
@@ -13,20 +14,24 @@ CR600同时又是一颗高性能、低功耗、高集成度的32位MCU芯片，�
 作为集32位MCU和宽带电力载波功能于一身的SoC芯片，既可以应用于单纯的电力载波通信，比如串口/PLC透传、网口/PLC透传等应用，又可以作为主控芯片，完成电力载波通信、操作系统、用户界面、实时控制、 传感器、音频编解码、信号处理、与云端交互等多种功能，实现单芯片解决方案。
 
 
+[![sites](docs/CR600.png)](http://www.cloudersemi.com/Product/CR600)
 
 #### 关键特性
 
-* PLC
-* LQFP-100（16X16mm）
+* PLC:OFDM，频率2MHz~28MHz，自带FEC纠错与校验
 
 ### [资源收录](https://github.com/SoCXin)
 
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
 [CR600](https://github.com/SoCXin/CR600)
 
-###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+* LQFP-100（16X16mm）
+
+
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
